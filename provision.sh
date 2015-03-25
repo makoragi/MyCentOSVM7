@@ -57,7 +57,7 @@ sudo localectl set-locale LANG=ja_JP.utf8
 
 #==========================================================
 ## Network Settings.
-
+sudo systemctl stop firewalld
 
 #==========================================================
 ## Apache Settings.
