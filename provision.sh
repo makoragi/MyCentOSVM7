@@ -58,6 +58,7 @@ sudo localectl set-locale LANG=ja_JP.utf8
 #==========================================================
 ## Network Settings.
 sudo systemctl stop firewalld
+sudo systemctl disable firewalld
 ## Disabled SELINUX
 file_selinuxconf="/etc/selinux/config"
 grep "^SELINUX=enforcing" $file_selinuxconf > /dev/null
